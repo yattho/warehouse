@@ -5,8 +5,8 @@ let errStack = 0;
 
 
 login.addEventListener('click', () => {
-    if (id.value == '20191433') {
-        if (password.value == '2000') {
+    if (id.value == '20191433' || '20192025' || '20194041') {
+        if (password.value == '2021') {
             alert("로그인성공");
             document.location.href = "manager.html";
         }
