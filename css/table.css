@@ -1,0 +1,30 @@
+@import url("style-header.css");
+@import url("style-main.css");
+@import url("style-footer.css");
+@import url("style-sidebar.css");
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: green;
+    border-top-color: green;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+element.style {
+    font-weight: bold;
+    background-color: #aaa;
+}
